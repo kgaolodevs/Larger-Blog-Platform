@@ -26,10 +26,49 @@
 }
 
 .backdrop {
-  height: 100vh;
+  height: 100%;
+  width: 100%;
   background-image: -webkit-gradient(linear, left top, left bottom, from(#25242a2a), to(#25242a50)), url(/assets/img/background-img.jpg);
   background-image: linear-gradient(to bottom, #25242a2a, #25242a50), url(/assets/img/background-img.jpg);
-  background-size: cover;
   background-position: top;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+.layout {
+  font-size: 2rem;
+  width: 100%;
+}
+
+.layout .hero {
+  height: 80vh;
+  background: rgba(220, 20, 60, 0.7);
+}
+
+.layout .articles .blog {
+  height: 60vh;
+  background: rgba(0, 255, 255, 0.7);
+  outline: 2px indigo solid;
+}
+
+.layout .next {
+  height: 15vh;
+  background: rgba(153, 50, 204, 0.7);
+}
+
+.layout .form {
+  height: 50vh;
+  background: rgba(210, 105, 30, 0.7);
+  outline: 2px indigo solid;
+}
+
+.layout .contact {
+  height: 40vh;
+  background: rgba(222, 184, 135, 0.7);
+}
+
+.layout .footer {
+  height: 15vh;
+  background: rgba(85, 107, 47, 0.7);
 }
 /*# sourceMappingURL=main.css.map */

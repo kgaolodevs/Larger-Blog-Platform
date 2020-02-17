@@ -1,7 +1,47 @@
 .backdrop {
-  height: 100vh;
+  height: 100%;
+  width: 100%;
   background-image: linear-gradient(to bottom, #25242a2a, #25242a50),
     url(/assets/img/background-img.jpg);
-  background-size: cover;
   background-position: top;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+.layout {
+  font-size: 2rem;
+  width: 100%;
+  .hero {
+    height: 80vh;
+    background: rgba($color: crimson, $alpha: 0.7);
+  }
+
+  .articles {
+    .blog {
+      height: 60vh;
+      background: rgba($color: cyan, $alpha: 0.7);
+      outline: 2px indigo solid;
+    }
+  }
+
+  .next {
+    height: 15vh;
+    background: rgba($color: darkorchid, $alpha: 0.7);
+  }
+
+  .form {
+    height: 50vh;
+    background: rgba($color: chocolate, $alpha: 0.7);
+    outline: 2px indigo solid;
+  }
+
+  .contact {
+    height: 40vh;
+    background: rgba($color: burlywood, $alpha: 0.7);
+  }
+
+  .footer {
+    height: 15vh;
+    background: rgba($color: darkolivegreen, $alpha: 0.7);
+  }
 }
