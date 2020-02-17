@@ -1,0 +1,15 @@
+:root {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+*,
+*:link,
+*::before,
+*::after {
+  text-decoration: none;
+  padding: inherit;
+  margin: inherit;
+  box-sizing: inherit;
+}

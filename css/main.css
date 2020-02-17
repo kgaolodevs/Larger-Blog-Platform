@@ -1,0 +1,35 @@
+:root {
+  --primary-font: "Sans Source Pro", Helvetica, sans-serif;
+  --secondary-font: "Merriweather", Georgia, serif;
+  --primary-light: #fff;
+  --primary-dark: #25242a;
+  --grey-light: #ccc;
+  --grey-dark: #a9a9a9;
+}
+
+:root {
+  padding: 0;
+  margin: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+*,
+*:link,
+*::before,
+*::after {
+  text-decoration: none;
+  padding: inherit;
+  margin: inherit;
+  -webkit-box-sizing: inherit;
+          box-sizing: inherit;
+}
+
+.backdrop {
+  height: 100vh;
+  background-image: -webkit-gradient(linear, left top, left bottom, from(#25242a2a), to(#25242a50)), url(/assets/img/background-img.jpg);
+  background-image: linear-gradient(to bottom, #25242a2a, #25242a50), url(/assets/img/background-img.jpg);
+  background-size: cover;
+  background-position: top;
+}
+/*# sourceMappingURL=main.css.map */
